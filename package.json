@@ -1,0 +1,28 @@
+{
+  "name": "utilitron9000_web_app",
+  "version": "1.0.0",
+  "description": "Serves static assets for utilitron 9000",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErraticUnicorn/utilitron_9000_web.git"
+  },
+  "keywords": [
+    "AI",
+    "SkyNet",
+    "Python",
+    "Javascript"
+  ],
+  "author": "erraticunicorn & lspangler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErraticUnicorn/utilitron_9000_web/issues"
+  },
+  "homepage": "https://github.com/ErraticUnicorn/utilitron_9000_web#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
