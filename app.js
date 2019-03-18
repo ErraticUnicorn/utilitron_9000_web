@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
-//setting middleware
-app.use(express.static('public'))
-var server = app.listen(5000);
+const port = 5000
+
+app.use(express.static(__dirname + '/'));
+app.listen(port, function() {
+    console.log("Server running at: http://localhost:" + port)
+});
