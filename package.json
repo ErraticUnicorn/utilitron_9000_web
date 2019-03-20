@@ -24,6 +24,7 @@
   "homepage": "https://github.com/ErraticUnicorn/utilitron_9000_web#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "grpc-web": "^1.0.3",
     "phaser": "^3.16.2"
   }
 }
